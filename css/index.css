@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+/* Header */
+* {
+    margin: 0px;
+}
+
+body {
+    background: #fff;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; 
+}
+
+.header-bg {
+    background: #fff;
+}
+
+.header-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 110px;
+    padding: 0px 50px;
+    margin: 0 auto;
+}
+
+.header-flex img {
+    width: 76px;
+    height: 70px;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+ul a {
+    color: #FC7900;
+}
+
+.btn-login a {
+    color: #fff;
+    background: #FC7900;
+    padding: 10px 20px;
+    border-radius: 22px;
+}
+
+
+
+/* Section - Map */
+iframe {
+    width: 100%;
+    height: 550px;
+}
+
+
+
+/* Section - Carrossel */
+.section-bg {
+    background: #fff;
+    max-width: 100%;
+    height: 530px;
+    margin: 0px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    position: absolute;
+    top: -65px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.section-itens {
+    display: grid;
+    gap: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
+    justify-items: center;
+    max-width: 385px;
+    height: 435px;
+    margin: 0 auto;
+}
+
+.section-itens img {
+    max-width: 100%;
+}
+
+.section-itens h3 {
+    color: #FC7900;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 100%;
+}
+
+.section-itens p {
+    color: #686868;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 40ch;
+}
+
+.section-itens a {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    background: #FC7900;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 5px 30px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+
+/* Aside - Browse Bar */
+.container-browser {
+    background: rgba(252, 121, 0, 0.80);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.form-browser {
+    padding: 50px;
+    align-items: start;
+    justify-content: center;
+}
+
+.form-browser label {
+    display: block;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 1010px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.input-browser {
+    display: flex;
+    grid-column: 1;
+    gap: 10px;
+    background: #fefefe;
+    border-radius: 9px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
+    max-width: 1010px;
+    height: 55px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.input-browser img {
+    padding-left: 10px;
+}
+
+.input-browser input {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    width: 1000px;
+    height: 50px;
+}
+
+.input-browser button {
+    display: flex;
+    color: #fff;
+    background: #fc7900;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    width: 219px;
+    height: 55px;
+    place-content: center;
+    align-items: center;
+}
+
+
+
+/* Section - Main */
+.section-main-bg {
+    background-color: #fff;
+    max-width: 100%;
+    padding-bottom: 220px;
+    margin: 0 auto;
+}
+
+.section-main-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.section-main-top h3 {
+    color: #2D2D2D;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.section-main-top a {
+    color: #2D2D2D;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-main-item {
+    display: grid;
+    gap: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
+    place-items: center;
+    justify-content: center;
+    max-width: 385px;
+    height: 435px;
+    margin: 0 auto;
+}
+
+.section-main-item img {
+    max-width: 100%;
+}
+
+.section-main-item h3 {
+    color: #FC7900;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-main-item p {
+    color: #686868;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 40ch;
+}
+
+.section-main-item a {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    background: #FC7900;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 5px 30px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+
+/* Footer */
+.footer-bg {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 120px;
+    align-items: center;
+    max-width: 1500px;
+    /* height: 188px; */
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.footer-grid img {
+    max-width: 100%;
+    margin-left: 100px;
+}
+
+.footer-grid ul div {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-grid ul div a {
+    color: rgba(252, 121, 0, 0.50);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.53px;
+}
+
+.footer-grid span {
+    color: #FC7900;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    align-self: end;
+    text-align: right;
+}
