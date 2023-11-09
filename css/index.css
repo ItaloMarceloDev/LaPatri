@@ -320,7 +320,7 @@ iframe {
     grid-template-columns: auto 1fr 1fr;
     gap: 120px;
     align-items: center;
-    max-width: 1500px;
+    max-width: 1600px;
     /* height: 188px; */
     padding: 20px;
     margin: 0 auto;
