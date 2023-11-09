@@ -317,11 +317,11 @@ iframe {
 
 .footer-grid {
     display: flex;
-    gap: 120px;
+    /* gap: 120px; */
     align-items: center;
     justify-content: space-around;
     max-width: 100%;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
 }
 
@@ -347,6 +347,7 @@ iframe {
     font-family: Inter;
     font-size: 18px;
     font-weight: 600;
+    justify-content: right;
     align-self: end;
     text-align: right;
 }
