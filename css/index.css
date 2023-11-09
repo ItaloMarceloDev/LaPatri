@@ -319,7 +319,7 @@ iframe {
     display: flex;
     /* gap: 120px; */
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 100%;
     padding: 30px;
     margin: 0 auto;
@@ -327,6 +327,7 @@ iframe {
 
 .footer-grid img {
     max-width: 100%;
+    margin-left: 75px;
 }
 
 .footer-grid ul div {
@@ -344,7 +345,7 @@ iframe {
 
 .footer-grid span {
     color: #FC7900;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 600;
     justify-content: right;
