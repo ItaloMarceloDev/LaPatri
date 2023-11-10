@@ -319,7 +319,7 @@ iframe {
     background: rgba(255, 255, 255, 0.80);
 }
 
-.footer-grid {
+.footer-flex {
     display: flex;
     gap: 100px;
     align-items: center;
@@ -329,18 +329,18 @@ iframe {
     margin: 0 auto;
 }
 
-.footer-grid img {
+.footer-flex img {
     max-width: 100%;
     margin-left: 95px;
 }
 
-.footer-grid ul div {
+.footer-flex ul div {
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.footer-grid ul div a {
+.footer-nav ul div a {
     color: rgba(252, 121, 0, 0.50);
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -348,7 +348,7 @@ iframe {
     letter-spacing: 1.53px;
 }
 
-.footer-grid span {
+.footer-nav span {
     color: #FC7900;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
