@@ -21,7 +21,6 @@ a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 35px; 
 }
@@ -58,7 +57,7 @@ ul a {
 .btn-login a {
     color: #fff;
     background: #FC7900;
-    padding: 10px 20px;
+    padding: 8px 32px;
     border-radius: 22px;
 }
 
@@ -82,12 +81,10 @@ iframe {
 }
 
 .section-flex {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    align-items: center;
-    justify-content: center;
-    max-width: 80%;
+    max-width: 1080px;
     position: absolute;
     top: -65px;
     left: 0;
@@ -96,14 +93,16 @@ iframe {
 }
 
 .section-itens {
-    display: grid;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
     justify-items: center;
-    max-width: 385px;
-    height: 435px;
+    place-items: center;
+    max-width: 340px;
+    height: 395px;
     margin: 0 auto;
 }
 
@@ -227,7 +226,7 @@ iframe {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1080px;
     height: 150px;
     margin: 0 auto;
 }
@@ -264,14 +263,14 @@ iframe {
 
 .section-main-item {
     display: grid;
-    gap: 20px;
+    gap: 15px;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
     place-items: center;
     justify-content: center;
-    max-width: 385px;
-    height: 435px;
+    max-width: 340px;
+    height: 395px;
     margin: 0 auto;
 }
 
@@ -300,6 +299,8 @@ iframe {
     gap: 10px;
     color: #fff;
     background: #FC7900;
+    font-size: 18px;
+    font-weight: 500px;
     font-family: 'Roboto', sans-serif;
     border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.10);
@@ -320,7 +321,6 @@ iframe {
 
 .footer-flex {
     display: flex;
-    gap: 100px;
     align-items: center;
     justify-content: space-between;
     max-width: 100%;
@@ -329,8 +329,8 @@ iframe {
 }
 
 .footer-flex img {
-    max-width: 100%;
-    margin-left: 95px;
+    max-width: 115px;
+    /* margin-left: 75px; */
 }
 
 .footer-flex span {
@@ -347,12 +347,13 @@ iframe {
     display: flex;
     gap: 30px;
     align-items: center;
+    margin-left: -200px;
 }
 
 .footer-nav ul div a {
     color: rgba(252, 121, 0, 0.50);
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.53px;
 }
